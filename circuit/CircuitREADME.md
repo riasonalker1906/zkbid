@@ -1,11 +1,3 @@
----
-
-**Folder:** `circuit/`  
-**Tools:** Noir (circuit language) + Barretenberg (prover)  
-**Responsibility:** Write the circuit, generate the Solidity verifier contract, test all scenarios.
-
----
-
 ## What the Circuit Proves
 
 Given:
