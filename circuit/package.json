@@ -1,0 +1,15 @@
+{
+  "name": "zkbid",
+  "version": "1.0.0",
+  "description": "ZKBid Vickrey auction ZK circuit (Noir + Barretenberg)",
+  "type": "commonjs",
+  "scripts": {
+    "generate-input": "node scripts/generate-input.js",
+    "run-tests": "bash scripts/run-tests.sh"
+  },
+  "dependencies": {
+    "@aztec/bb.js": "^0.67.0",
+    "poseidon2": "^0.0.4"
+  },
+  "devDependencies": {}
+}

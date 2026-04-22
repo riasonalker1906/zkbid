@@ -1,0 +1,15 @@
+# Single bidder: [300, 0, 0, 0, 0] -- slots 1-4 are zero-padded
+# Winner = index 0, second_price = 0
+# Poseidon2(300,99), Poseidon2(0,0) x4
+
+bids = ["300", "0", "0", "0", "0"]
+salts = ["99", "0", "0", "0", "0"]
+commitments = [
+  "0x22d7f4aedbc4b2c9d3a651da768654ba52dd3df198039828605232953e164656",
+  "0x0b63a53787021a4a962a452c2921b3663aff1ffd8d5510540f8e659e782956f1",
+  "0x0b63a53787021a4a962a452c2921b3663aff1ffd8d5510540f8e659e782956f1",
+  "0x0b63a53787021a4a962a452c2921b3663aff1ffd8d5510540f8e659e782956f1",
+  "0x0b63a53787021a4a962a452c2921b3663aff1ffd8d5510540f8e659e782956f1"
+]
+winner_index = "0"
+second_price = "0"

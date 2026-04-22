@@ -1,0 +1,9 @@
+# Noir build artifacts (large, regeneratable)
+circuit/target/
+circuit/proof/
+
+# Node
+node_modules/
+
+# Environment
+.env

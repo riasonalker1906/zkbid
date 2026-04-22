@@ -1,0 +1,15 @@
+# INVALID: correct winner but wrong second_price
+# Bids: [100, 200, 300, 400, 500], winner = index 4 (bid=500)
+# True second_price = 400, claimed = 300 -- SHOULD FAIL
+
+bids = ["100", "200", "300", "400", "500"]
+salts = ["1", "2", "3", "4", "5"]
+commitments = [
+  "0x0b9ad17d3d4fb2312e03a54420f18a745b0fac191ba33336e12dd566ec5a0756",
+  "0x27f17d88420e8006ecaba663ebc0bbaccd7aaa60e22f6a6f97a05270124a1f46",
+  "0x1c6fbea11355a1cb48a260349444417ce4db7c7cd34ab7f0025fbba605ccb12c",
+  "0x1a6b7105ff9260f558b7d32dd3350dbda162bf75aa8075ab3700339206b9c669",
+  "0x09cbc236f417b4e7b85d6b7d4668c7ddd710f39a519df883b0f322d1d3facb1d"
+]
+winner_index = "4"
+second_price = "300"

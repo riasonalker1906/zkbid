@@ -1,0 +1,6 @@
+[package]
+name = "zkbid"
+type = "bin"
+authors = [""]
+
+[dependencies]

@@ -1,0 +1,15 @@
+# Tied scenario: two bidders tie for highest [500, 500, 300, 200, 100]
+# Winner = index 0 (lowest index wins the tie), second_price = 500
+# Poseidon2(500,10), Poseidon2(500,20), Poseidon2(300,30), Poseidon2(200,40), Poseidon2(100,50)
+
+bids = ["500", "500", "300", "200", "100"]
+salts = ["10", "20", "30", "40", "50"]
+commitments = [
+  "0x285fdea7a74a4fe67ae4da620fd725d41d46f3dd8373a224c7155a220e9534ad",
+  "0x15cbad64c816989ad949c4fe6aba18237ec9cf55d04dc8d86a58e5fb6f3a7d19",
+  "0x1b42273fc7c715623ff7ae7c88006a5bbb9828f98e8663d957fa0b4ef5786524",
+  "0x22564e218060801a87a84f6ab07200517ef52e8006027634778f02ced077f887",
+  "0x1edce2a06f73a14a2d324aebc1de65cb37f4f8c85bd7033278f6fabad17c15e3"
+]
+winner_index = "0"
+second_price = "500"
