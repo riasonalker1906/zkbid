@@ -46,7 +46,7 @@ WITNESS="$ROOT/target/zkbid_witness.gz"
 VK="$ROOT/target/vk/vk"
 if [ ! -f "$VK" ]; then
   echo "[prove] Generating verification key..."
-  bb write_vk -b "$ACIR" -k "$VK" -t evm -o "$ROOT/target/vk"
+  bb write_vk -b "$ACIR" -t evm -o "$ROOT/target/vk"
 fi
 
 # Step 4: Generate proof
