@@ -5,5 +5,11 @@ circuit/proof/
 # Node
 node_modules/
 
+# Hardhat / contract build artifacts
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/deployments/*.local.json
+
 # Environment
 .env

@@ -1,0 +1,17 @@
+{
+  "name": "zkbid-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.26.0",
+    "typescript": "^5.5.3"
+  }
+}
