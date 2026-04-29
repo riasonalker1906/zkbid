@@ -4,6 +4,9 @@ circuit/proof/
 
 # Node
 node_modules/
+*.tsbuildinfo
+frontend/dist/
+frontend/*.log
 
 # Hardhat / contract build artifacts
 contracts/artifacts/
@@ -13,3 +16,4 @@ contracts/deployments/*.local.json
 
 # Environment
 .env
+frontend/.env.local
